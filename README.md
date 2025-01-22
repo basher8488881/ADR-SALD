@@ -11,7 +11,7 @@ sample data is provided in the data folder.
 # Training 
 cd ./code \
 python training/exp_runner.py --batch_size 1 --nepoch 16000
-# Testing and Evaluation
+# Generation and Evaluation
 cd ./code \
 python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp 2025_01_21_17_33_57 
 
