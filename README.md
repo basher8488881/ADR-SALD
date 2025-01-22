@@ -1,7 +1,7 @@
 # ADR-SALD
 ADR-SALD: Attention-Based Deep Residual Sign Agnostic Learning with Derivatives for Implicit Surface Reconstruction 
 ## Reconstruction Preview
-![plot](https://github.com/basher8488881/ADR-SALD/blob/master/shapenet_imgAll.pdf)
+![plot](https://github.com/basher8488881/ADR-SALD/blob/main/shapenet_imgAll_1.png)
 # Installation 
 The code is implemented and tested on Ubuntu 20.4 linux environment.
 
