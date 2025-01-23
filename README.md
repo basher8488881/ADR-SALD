@@ -26,7 +26,7 @@ python training/exp_runner.py --batch_size 1 --nepoch 16000
 ``cd ./code`` <br/>
 ``python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp <timestamp>`` <br/>
 
-Generated mesh and evaluation result can be found in ``exps`` folder 
+Generated mesh and evaluation result can be found in ``exps/recon_vae/<timestamp>/evaluation`` folder 
 
 # Aknowledgement 
 This code is based on SALD (https://github.com/matanatz/SALD), thanks for this wonderful work.
