@@ -24,7 +24,7 @@ replace the ``dataset_path`` to a new file path
 python training/exp_runner.py --batch_size 1 --nepoch 16000
 # Generation and Evaluation
 ``cd ./code`` <br/>
-``python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp 2025_01_21_17_33_57`` <br/>
+``python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp <timestamp>`` <br/>
 
 Generated mesh and evaluation result can be found in ``exps`` folder 
 
