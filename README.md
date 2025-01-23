@@ -8,7 +8,11 @@ cd ./code \
 conda env create -f environment.yaml \
 conda activate adr-sald 
 # Data 
-sample data is provided in the data folder. 
+sample data is provided in the data folder. To change the data path, please go to this directory \
+cd ./code/confs \
+Open this file \ 
+recon.conf \
+replace the "dataset_path" to a new file path
 # Training 
 cd ./code \
 python training/exp_runner.py --batch_size 1 --nepoch 16000
