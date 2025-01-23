@@ -5,26 +5,26 @@ ADR-SALD: Attention-Based Deep Residual Sign Agnostic Learning with Derivatives 
 ![plot](https://github.com/basher8488881/ADR-SALD/blob/main/BenchClass-Extra.png)
 
 # Installation 
-The code is implemented and tested on Ubuntu 20.4 linux environment.\
-cd ./code \
-conda env create -f environment.yaml \
-conda activate adr-sald 
+The code is implemented and tested on Ubuntu 20.4 linux environment.<br/>
+``cd ./code `` <br/>
+``conda env create -f environment.yaml`` <br/>
+``conda activate adr-sald`` 
 # Data 
 sample data is provided in the data folder. To change the data path, please go to this directory <br/>
-cd ./code/confs <br/>
+``cd ./code/confs`` <br/>
 
 Open this file <br/>
 
-recon.conf <br/>
+``recon.conf`` <br/>
 
 replace the ``dataset_path`` to a new file path
 
 # Training 
-cd ./code <br/>
+``cd ./code`` <br/>
 python training/exp_runner.py --batch_size 1 --nepoch 16000
 # Generation and Evaluation
-cd ./code <br/>
-python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp 2025_01_21_17_33_57 <br/>
+``cd ./code`` <br/>
+``python evaluate/eval.py --expname recon_vae --exps_folder_name exps --checkpoint 16000 --timestamp 2025_01_21_17_33_57`` <br/>
 
 Generated mesh and evaluation result can be found in ``exps`` folder 
 
