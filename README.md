@@ -8,12 +8,12 @@ cd ./code \
 conda env create -f environment.yaml \
 conda activate adr-sald 
 # Data 
-sample data is provided in the data folder. To change the data path, please go to this directory \
-cd ./code/confs \
+sample data is provided in the data folder. To change the data path, please go to this directory <br/>
+cd ./code/confs <br/>
 
-Open this file\ 
+Open this file <br/>
 
-recon.conf \
+recon.conf <br/>
 
 replace the "dataset_path" to a new file path
 
