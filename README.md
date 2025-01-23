@@ -7,7 +7,7 @@ ADR-SALD: Attention-Based Deep Residual Sign Agnostic Learning with Derivatives 
 # Installation 
 The code is implemented and tested on Ubuntu 20.4 linux environment.<br/>
 ``cd ./code `` <br/>
-``conda env create -f environment.yaml`` <br/>
+``conda env create -f envsald.yaml`` <br/>
 ``conda activate adr-sald`` 
 # Data 
 sample data is provided in the data folder. To change the data path, please go to this directory <br/>
