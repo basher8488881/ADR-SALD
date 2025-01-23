@@ -119,4 +119,5 @@ dependencies:
     - websocket-client==1.2.3
     - prettytable
     - einops
+    - open3d 
 
